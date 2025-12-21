@@ -12,3 +12,6 @@ print(f"Посещали только математику: {one_math}")
 two = (math_students & physics_students) | (math_students & cs_students) | (physics_students & cs_students)
 print(f"Те кто есть только в двух множествах: {two}")
 
+one_raz = math_students | physics_students | cs_students
+print(f"Уникальные студенты: {one_raz}")
+
